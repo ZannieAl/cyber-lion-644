@@ -2,7 +2,7 @@ FROM node:22-alpine
 
 RUN apk add --no-cache     git     ffmpeg     libwebp-tools     python3     make     g++
 
-RUN echo "$(date)" &&     git clone -b main https://github.com/souravkl11/raganork-md /rgnk
+RUN echo "$(date)" &&     git clone -b main https://github.com/ZannieAl/raganork-md
 
 WORKDIR /rgnk
 
